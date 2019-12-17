@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: 192.168.100.6
+    protocol: zookeeper
+    check: false
+    timeout: 10000
+    port: 2181
+  protocol:
+    name: dubbo
+    port: 30003
+  monitor:
+    protocol: register
+  consumer:
+    check: false
+    timeout: 3000
+
+server:
+  port: 8061
