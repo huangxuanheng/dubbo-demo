@@ -7,4 +7,5 @@ public interface CostService {
      * @return
      */
     Integer add(int cost);
+
 }

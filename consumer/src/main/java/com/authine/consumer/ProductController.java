@@ -23,4 +23,9 @@ public class ProductController {
     public String getCost(int a){
         return "该产品总共消费 ："+productService.getCost(a);
     }
+
+    @RequestMapping("/name")
+    public String getName(String name){
+        return productService.getName(name);
+    }
 }

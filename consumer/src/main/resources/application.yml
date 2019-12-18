@@ -3,7 +3,7 @@ dubbo:
   application:
     name:  dubbo-consumer
   registry:
-    address: 192.168.100.6:2181
+    address: 127.0.0.1:2181
     protocol: zookeeper
     check: false
   monitor:

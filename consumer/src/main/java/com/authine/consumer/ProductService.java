@@ -9,4 +9,10 @@ public interface ProductService {
      */
     Integer getCost(int a);
 
+    /**
+     * 获取名字接口
+     * @param name
+     * @return
+     */
+    String getName(String name);
 }
